@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "https://chenfengblog.eu.org/link/", theme: "common2" },  # 友链页地址1，修改为你的友链页地址
+     { link: "https://chenfengblog.eu.org/link/", theme: "butterfly" },  # 友链页地址1，修改为你的友链页地址
 #     { link: "https://noionion.top/link/", theme: "butterfly" }, # 友链页地址2
 #     { link: "https://immmmm.com/about/", theme: "common1" }, # 友链页地址3
 #     ...
@@ -34,8 +34,21 @@ SETTINGS_FRIENDS_LINKS: {
     json_api: "../friend.json",
     list: [
         # 示例1：
-        ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
-        ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
+        ["HiSuzume", "https://hisuzume.github.io/", "https://image.anheyu.com/useruploads/108/2023/05/19/646795e9b24ca.jpg"],
+        ["王同学的blog", "https://demo.wxz666.icu", "https://img1.baidu.com/it/u=1432388648,1216257200&fm=253&fmt=auto&app=138&f=JPEG?w=502&h=500"],
+        ["朝而往", "https://muerg.cn/", "https://image.muerg.cn/i/2023/05/01/644f6cebafd3d.jpg"],
+        ["铭心石刻", "https://blog.kouseki.cn/", "https://blog.kouseki.cn/imgs/avatar.webp"],
+        ["🏴‍☠️浴巾的贼船🏴‍☠️", "https://www.chunyujin.top/", "https://image.anheyu.com/useruploads/108/2023/05/13/645ef19022393.gif"],
+        ["晓空/宇风博客", "https://www.xkyfzs.top", "https://tuchuang.xkyfzs.top/img/touxiang.jpg"],
+        ["拾光博客", "https://www.timebaoku.online/", "https://www.timebaoku.online/zb_users/theme/acgMora/usr/logo.png?1683030486"],
+        ["Lil-knee的技术空间站", "https://blog.lilknee.xyz/", "https://minio.lilknee.xyz/aurora/config/c51da5c5bc20440293cc0f6e76f62de2.png"],
+        ["ZTY's Blog", "https://zty-user.github.io/", "https://image.anheyu.com/useruploads/108/2023/04/04/642c3b37a384d.jpg"],
+        ["Tiamo", "https://blog.xiaoadai.com/", "https://s1.ax1x.com/2023/04/06/ppotT6s.jpg"],
+        ["小明博客", "http://124.71.236.153/blog/homepage", "https://image.anheyu.com/useruploads/108/2023/04/15/643ab8b55c476.webp"],
+        ["ikun博客", "http://101.42.20.119:8080/", "https://image.anheyu.com/useruploads/108/2023/04/17/643d1c00daa65.png"],
+        ["召尘秘境", "https://www.olive-r.cn", "https://www.olive-r.cn/favicon.ico"],
+        ["Edward", "https://edwardshh.cn/", "https://image.anheyu.com/useruploads/160/2023/05/10/645ba0257beca.jpeg"],
+        ["爱摸鱼的Mo", "https://blog.xiowo.net/", "https://img01.anheyu.com/useruploads/108/2023/07/12/64aec718d5349.png"],
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
